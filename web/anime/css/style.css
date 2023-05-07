@@ -6,5 +6,9 @@
 }
 
 nav{
-	background:#000;
+	background-color: #3B28cc;
+	width: 200px;
+	height: 100%;
+	color: #FFF;
+	position: fixed;
 }
