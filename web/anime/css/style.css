@@ -38,7 +38,16 @@ nav{
 .list a:hover {
 	color: #ADD7F6;
 }
-
+/* ======================header=================================================== */
+.about{
+	background-image: url("/project_perso/web/anime/imag/car-wash.webp");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+	max-width: 1200px;
+	margin: 0 auto;
+}
 /*=========================section main=====================================*/
 
 .card{
