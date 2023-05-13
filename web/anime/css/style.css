@@ -4,6 +4,10 @@
 	box-sizing: 0;
 	font-family: sans-serif;
 }
+img {
+	width: 100%;
+	height: 100%;
+}
 a {
 	color: #fff;
 }
@@ -39,37 +43,42 @@ nav{
 	color: #ADD7F6;
 }
 /* ======================header=================================================== */
-.about{
-	background-image: url("/project_perso/web/anime/imag/car-wash.webp");
+header{
+	background-image: url("https://i.pinimg.com/564x/5e/8b/26/5e8b26e9a8473c2c3d842347283216ba.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 500px;
 	max-width: 1200px;
 	margin: 0 auto;
-}
-/*=========================section main=====================================*/
-
-.card{
-	max-width: 200px;
-	max-height: 400px;
-	box-shadow: 0 4px 8px 0;
-	margin:10px;
-}
-.card-image img{
-	width: 100%;
-	height: 200px;
-	object-fit: cover;
-}
-.card-description{
-	text-align: center;
-}
-.lowbody {
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: center;
 }
-.contact a {
-	color: #000;
-	text-decoration: none;
+
+.about {
+ text-align: center;
+ font-size: 30px;
+ color: #fff;
 }
+
+.about button {
+	border: none;
+	font-size: 20px;
+	background-color: #87BFFF;
+	padding: 7px 16px;
+	border-radius: 4px;
+}
+/*=========================section main=====================================*/
+.card{
+	max-width: 400px;
+	max-height: 200px;
+	box-shadow: 0 4px 8px 0;
+	display: flex;
+	margin:10px;
+}
+
+
+
+
+
