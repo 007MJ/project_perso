@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.head_nav {
+    display: flex;
+    margin: 50px;
+    justify-content: space-around;
+    height: 200px;
+}
+
+.head_nav img {
+    height: 200px;
+    width: 200px;
+    border-radius:50% ;
+}
+
+.contact{
+    margin-top: 100px;
+}
+
+.contact a {
+    text-decoration: none;
+    font-size: 25px;
+    border: 2px solid #6E7FBD;
+    padding: 10px;
+    border-radius: 10px 20px 10px 20px;
+    color: #000;
+}
+/* end of head nav */
+
+.nav{
+    display: flex;
+    justify-content: center;
+    padding: 0 10px;
+}
+.nav a {
+    padding: 0 10px;
+    text-decoration: none;
+    color: #000;
+}
+/* end of nav */
+
+.main{
+    margin: 0px 200px 0px 200px;
+}
